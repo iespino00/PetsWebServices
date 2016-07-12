@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iespino.pets.Contacto">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_blanco">
+
+        <LinearLayout
+            android:id="@+id/LCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include android:id="@+id/ActionBar"
+                layout="@layout/activity_bar"
+                >
+            </include>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/id_cuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margen_top_perfil"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_below="@id/ActionBar">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tiUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nombre_cuenta"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnBuscar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margen_top"
+                android:text="@string/boton_guardar_cuenta"
+                android:theme="@style/BotonEnviar"
+                android:layout_gravity="clip_vertical"
+                android:onClick="buscarUsuario"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

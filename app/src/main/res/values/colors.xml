@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="color_blanco">#FFFFFF</color>
+    <color name="color_perfil">#ffc5ab</color>
+    <color name="background_Fragments">#f8ffe5</color>
+    <color name="color_link">#344cff</color>
+    <color name="colorNegro">#000000</color>
+</resources>

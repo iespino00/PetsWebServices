@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pets</string>
+    <string name="nombre_card">Nombre</string>
+    <string name="huesitos_acum">Huesitos</string>
+    <string name="desarrollador">IGNACIO ESPINO RIVERA</string>
+    <string name="ciudad">Lázaro Cárdenas, Michoacán, México</string>
+    <string name="descripcion">Ing. Sistemas Computacionales</string>
+    <string name="link_page">www.online-classes-free.com</string>
+
+    <string name="nombre_contacto">Nombre</string>
+    <string name="correo_contacto">Correo Gmail (Destino)</string>
+    <string name="mensaje_contacto">Mensaje...</string>
+    <string name="boton_enviar">Enviar Correo</string>
+
+    <string name="boton_guardar_cuenta">Guardar Cuenta</string>
+    <string name="nombre_cuenta">Escribe tu usuario...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
